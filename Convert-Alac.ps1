@@ -1,5 +1,5 @@
 param(
-        [Parameter(Mandatory)][string]$Path
+        [Parameter(Mandatory=$true)][string]$Path
 )
 
 $ffmpeg = "$PSScriptRoot\ffmpeg\bin\"
